@@ -58,6 +58,14 @@ Then run `cd linux && make`.
 
 To install run `cd linux && make install`. The install target uses sudo so you will be prompted for your password.
 
+Then run 
+
+```
+systemctl --user stop softu2f
+systemctl --user start softu2f
+```
+
+
 ## License
 
 This project is licensed under either of
